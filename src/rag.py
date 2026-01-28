@@ -24,7 +24,6 @@ def get_rag_chain(retriever, model_name: str = "llama3.2", temperature: float = 
     You are an assistant for question-answering tasks. 
     Use the following pieces of retrieved context to answer the question. 
     Do not hallucinate or make up information apart from the context provided.
-    If the context is not enough to answer the question, say "I don't have enough information to answer the question."
     
     Context: {context}
     
